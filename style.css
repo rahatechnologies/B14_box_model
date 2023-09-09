@@ -1,0 +1,83 @@
+/* 
+
+CSS Box Model
+
+Padding
+Margin
+Border
+border-radius , negative margin
+*/
+
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* html{
+    margin: 0;
+}
+
+body{
+
+    margin: -1rem;
+} */
+
+
+
+h1,
+p{
+    color: white;
+}
+
+h1{
+    background: red;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+    margin-top: 1rem;
+
+    /*  shortcut */
+    margin: 3rem;
+    
+}
+
+p{
+    background: blue;
+    /* shortcut */
+    /* padding  value
+        top & bottom = 2rem
+        left & right = 3rem    
+     */
+
+     /*  When 
+        top & bottom value same 
+        similarly left & right value same
+          
+     */
+    padding: 2rem 3rem; 
+
+    /* padding: 2rem 3rem 2rem 3rem; */
+
+    /* padding-right: 5rem; */
+
+    margin: 5rem 3rem;
+
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#secondiv{
+    padding-bottom: 3rem;
+}
