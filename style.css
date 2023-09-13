@@ -37,16 +37,27 @@ p{
 h1{
     background: red;
     padding-top: 2rem;
-    padding-left: 5rem;
+    padding-left: 3rem;
     padding-right: 2rem;
     padding-bottom: 3rem;
     margin-top: 1rem;
-
     /*  shortcut */
     margin: 3rem;
-    
-}
 
+    /* border shortcut */
+    border: 10px solid black;
+    
+    
+    
+    border-style: dotted;
+    border-style: dashed;
+    border-style: groove;
+    border-style: ridge;
+    border-style: inset;
+    border-style: outset;
+    /* border-style: none; */
+
+}
 p{
     background: blue;
     /* shortcut */
@@ -68,6 +79,11 @@ p{
 
     margin: 5rem 3rem;
 
+    /*  descriptiv way */
+    border-bottom-style: double;
+    border-bottom-color: red;
+    border-bottom-width:  2rem;
+
 }
 
 div{
@@ -80,4 +96,13 @@ div{
 
 #secondiv{
     padding-bottom: 3rem;
+}
+
+#special_heading{
+    border-radius: 15px;
+    border-radius: 50%;
+    padding: 5rem;
+   text-align: center;
+    font-size: 3rem;
+   margin-top: -120px;   
 }
